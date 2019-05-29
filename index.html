@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
+	
+	<title>hex of color</title>
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" type="text/css" href="hexC.css">
+</head>
+<body>
+<div id="ctip"></div>
+<div id="cIn">
+	<input id="cInv" type="text" name="hexc" placeholder="#82b64a" onkeydown="hexC(event)">
+</div>
+<div class="cShow" onclick="copyHexc(0)">
+	<input type="text" class="chex">
+	<span class="hexName" onclick="event.stopPropagation();copyHexc(0,this.innerHTML)">森林绿</span>
+</div>
+
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
