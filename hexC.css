@@ -1,87 +1,4 @@
 html,body{
-<<<<<<< HEAD
-	margin: 0;
-	padding: 0;
-	width:100%;
-	height:100%;
-	overflow:hidden;
-	background: #82b64a;
-	display: flex;
-}
-
-.cShow{
-	width: 100%;
-	height: 100%;
-	cursor: pointer;
-}
-
-.cShow .hexName,.cShow .chex{
-    mix-blend-mode: difference;
-    color: #888;
-    background: transparent;
-    font-size: 36px;
-}
-
-.cShow .chex{
-    box-sizing: border-box;
-    margin-top: 20px;
-    padding-left: 6%;
-    width: 100%;
-    border: none;
-    font-size: 32px;
-    font-style: italic;
-    cursor: pointer;
-}
-
-.cShow .hexName{
-    padding: 36px 6%;
-    writing-mode: vertical-lr;
-    display: block;
-    max-width: 100%;
-    width: fit-content;
-}
-
-#cIn, #cIn input {
-    box-sizing: border-box;
-    width: 400px;
-    height: 60px;
-}
-
-#cIn{
-    display: inline-block;
-    position: absolute;
-    left: 50%;
-    margin-left: -200px;
-    top: 42%;
-    z-index: 999;
-}
-
-#cIn input {
-    border-radius: 30px;
-    border: none;
-    font-size: 30px;
-    text-align: center;
-}
-
-#ctip{
-    position: fixed;
-    right: 0;
-    left: 0;
-    margin-right: auto;
-    margin-left: auto;
-    width: fit-content;
-    max-width: max-content;
-    bottom: 20px;
-    display: none;
-    overflow: hidden;
-    border: none;
-    border-radius: 12px;
-    background: #fff;
-    padding: 12px 48px;
-    font-size: 28px;
-    color: #82b64a;
-    z-index: 999;
-=======
   margin: 0;
   padding: 0;
   width:100%;
@@ -178,5 +95,4 @@ html,body{
   font-size: 28px;
   color: #82b64a;
   z-index: 999;
->>>>>>> 3635003... github link
 }
