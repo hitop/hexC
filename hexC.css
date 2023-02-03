@@ -21,6 +21,7 @@ html,body{
   text-align: center;
   font-size: 18px;
   text-decoration: none;
+  z-index: 1;
 }
 
 .cShow{
@@ -55,7 +56,7 @@ html,body{
   width: fit-content;
 }
 
-#cIn, #cIn input {
+#cIn, .cIn_input {
   box-sizing: border-box;
   width: 400px;
   height: 60px;
@@ -70,11 +71,26 @@ html,body{
   z-index: 999;
 }
 
-#cIn input {
+.cIn_input {
   border-radius: 30px;
   border: none;
   font-size: 30px;
   text-align: center;
+}
+.cIn_apply {
+  position: relative;
+  top: -50px;
+  left: 346px;
+  font-size: 32px;
+  color: white;
+  background: #333;
+  display: inline-block;
+  height: 40px;
+  line-height: 35px;
+  width: 40px;
+  text-align: center;
+  border-radius: 30px;
+  cursor: pointer;
 }
 
 #ctip{

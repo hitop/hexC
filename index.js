@@ -27,6 +27,11 @@ function hexC(evt) {
   evt = (evt) ? evt : ((window.event) ? window.event : "")
   keyCode = evt.keyCode ? evt.keyCode : (evt.which ? evt.which : evt.charCode);
   if (keyCode == 13) {
+    hexApply()
+  }
+}
+
+function hexApply(){
     let civ = document.getElementById("cInv");
     let cv = civ.value,chex,hexn="";
     cv = cv.replace("色","");
@@ -63,7 +68,6 @@ function hexC(evt) {
     csDiv(0,chex,hexn);
     removeCshow();
     civ.placeholder = chex;
-  }
 }
 
 function wildHex() {
